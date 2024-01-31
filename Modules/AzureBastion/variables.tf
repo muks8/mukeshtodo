@@ -1,0 +1,3 @@
+variable "bastionname" {
+  type = string
+}
