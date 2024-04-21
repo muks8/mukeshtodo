@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-statefiles-minhaj"
-    storage_account_name = "sttodoappminhaj"
-    container_name       = "cr-todoapp-minhaj"
+    resource_group_name  = "rg-statefiles-mukesh"
+    storage_account_name = "sttodoappmukesh"
+    container_name       = "cr-todoapp-mukesh"
     key                  = "todoapp.terraform.tfstate"
   }
 

@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "rg-todoApp" {
-  name = "rg-todoApp-minhaj"
+  name = "rg-todoApp-mukesh"
 }
 
 data "azurerm_network_interface" "vminterface" {
@@ -9,8 +9,8 @@ data "azurerm_network_interface" "vminterface" {
 }
 
 data "azurerm_key_vault" "todoApp-keyvault" {
-  name                = "keyvaluttodoappminhaj"
-  resource_group_name = "rg-statefiles-minhaj"
+  name                = "keyvaluttodoappmukesh"
+  resource_group_name = "rg-statefiles-mukesh"
 }
 
 data "azurerm_key_vault_secret" "username" {

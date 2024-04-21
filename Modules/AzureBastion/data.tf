@@ -1,10 +1,10 @@
 data "azurerm_resource_group" "rg-todoApp" {
-  name = "rg-todoApp-minhaj"
+  name = "rg-todoApp-mukesh"
 }
 
 data "azurerm_virtual_network" "vnet-todoApp" {
-  name                = "vnet-todoApp-minhaj"
-  resource_group_name = "rg-todoApp-minhaj"
+  name                = "vnet-todoApp-mukesh"
+  resource_group_name = "rg-todoApp-mukesh"
 }
 
 data "azurerm_subnet" "snet-azurebastion" {
@@ -14,6 +14,6 @@ data "azurerm_subnet" "snet-azurebastion" {
 }
 
 data "azurerm_public_ip" "pip-azurebastion" {
-  name                = "pip-azbas-frontend-minhaj"
+  name                = "pip-azbas-frontend-mukesh"
   resource_group_name = data.azurerm_resource_group.rg-todoApp.name
 }

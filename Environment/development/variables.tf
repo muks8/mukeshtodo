@@ -1,7 +1,7 @@
 #Resource Group
 variable "rg-name" {
   type    = string
-  default = "rg-todoApp-minhaj"
+  default = "rg-todoApp-mukesh"
 }
 
 variable "rg-location" {
@@ -12,7 +12,7 @@ variable "rg-location" {
 #Virtual Network
 variable "vnet-name" {
   type    = string
-  default = "vnet-todoApp-minhaj"
+  default = "vnet-todoApp-mukesh"
 }
 
 variable "vnet-address_space" {

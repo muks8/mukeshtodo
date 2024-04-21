@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "rg-todoApp" {
-  name = "rg-todoApp-minhaj"
+  name = "rg-todoApp-mukesh"
 }
 resource "azurerm_sql_database" "db_todoapp" {
   name                = var.dbname

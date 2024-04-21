@@ -1,6 +1,6 @@
 variable "vnet-name" {
   type    = string
-  default = "vnet-todoApp-minhaj"
+  default = "vnet-todoApp-mukesh"
 }
 
 variable "vnet-address_space" {
